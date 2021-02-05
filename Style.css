@@ -1,0 +1,26 @@
+ /* Body background */
+
+body {
+    background-color: #D9D7D7;
+    opacity: 0.8;
+  }
+
+.cards{
+
+
+}
+
+   /* Navbar background */
+nav {
+    
+    background-color: #0D0D0D;
+    background: linear-gradient(#FFFFFF);
+    }
+
+
+ /* Footer background */
+
+footer {
+       background-color: #0D0D0D;
+        text-align: center; 
+    }

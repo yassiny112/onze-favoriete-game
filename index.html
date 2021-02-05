@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Style.css">
+
+    <link rel="shortcut icon" href="./Img/Icon/Logo-navbar.ico" type="image/x-icon">
+    <title>Call of Duty - GameWiki</title>
+  </head>
+  <body>
+
+    <!-- Begin van de navigatiebar -->
+    <nav class="navbar sticky-top navbar-expand-lg "> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./Img/Logo navbar.png" alt="" width="30" height="24" class="d-inline-block align-top">
+                GameWiki</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Specificaties</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Over de game
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Geschiedenis</a></li>
+                  <li><a class="dropdown-item" href="#">Makers</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Bewerken</a>
+              </li>
+            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+            </svg>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Zoeken</button>
+            </form>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav>
+          </div>
+        </div>
+      </nav>
+      <!-- Einde van de navigatiebar -->
+
+      <div class="container"> <!-- Dit is het begin van de container -->
+
+        <!-- Begin van de carousel -->
+
+        <div id="carouselExampleCaptions" class="carousel slide w-auto mx-auto" data-bs-ride="carousel" data-interval="4000">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Img/Carousel/Call-of-Duty-1-cover-800x400.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Dit is de eerste game dat is uitgebracht in 2003<h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Img/Carousel/Picgameplay.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Screenshot van de gameplay van de eerste game van Call of Duty<h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Img/Carousel/Call-Of-Duty-Black-Ops-Cold-War.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Dit is de recent uitgebrachte game<h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Img/Carousel/517613_w412.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Screenshot van de gameplay Call of Duty: Black Ops - Cold War<h3>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+
+          <!-- Einde van de carousel -->
+
+        </div> <!-- Dit is het einde van de container -->
+
+        <!-- Begin van een tabel -->
+
+        <div class="container"> <!-- Dit is het begin van de container -->
+
+
+        <table class="table" class="mt-4">
+            <thead>
+              <tr>
+                <th scope="col">Uitgave in Europa</th>
+                <th scope="col">Game</th>
+                <th scope="col">Geschreven in</th>
+                <th scope="col">Aantal spelers</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">7 november 2003</th>
+                <td>Call of Duty</td>
+                <td>C++</td>
+                <td>Onbekend</td>
+              </tr>
+              <tr>
+                <th scope="row">25 oktober 2005</th>
+                <td>Call of Duty 2</td>
+                <td>C++</td>
+                <td>Onbekend</td>
+              </tr>
+              <tr>
+                <th scope="row">10 november 2006</th>
+                <td>Call of Duty 3</td>
+                <td>C++</td>
+                <td>Onbekend</td>
+              </tr>
+              <tr>
+                <th scope="row">9 november 2007</th>
+                <td>Call of Duty 4: Modern Warfare</td>
+                <td>C++</td>
+                <td>Onbekend</td>
+              </tr>
+              <tr>
+                <th scope="row">14 november 2008</th>
+                <td>Call of Duty: World at War</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">10 november 2009</th>
+                <td>Call of Duty: Modern Warfare 2</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">9 november 2010</th>
+                <td>Call of Duty: Black Ops</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">8 november 2011</th>
+                <td>Call of Duty: Modern Warfare 3</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">30 november 2012</th>
+                <td>Call of Duty: Black Ops II</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">5 november 2013</th>
+                <td>Call of Duty: Ghosts</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">4 november 2014</th>
+                <td>Call of Duty: Advanced Warfare</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">6 november 2015</th>
+                <td>Call of Duty: Black Ops III</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">4 november 2016</th>
+                <td>Call of Duty: Infinite Warfare</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+                <th scope="row">4 november 2016</th>
+                <td>Call of Duty: Modern Warfare Remastered</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+                <th scope="row">3 november 2017</th>
+                <td>Call of Duty: WWII</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+                <th scope="row">12 oktober 2018</th>
+                <td>Call of Duty: Black Ops 4</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+                <th scope="row">25 oktober 2019</th>
+                <td>Call of Duty: Modern Warfare</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+                <th scope="row">13 november 2020</th>
+                <td>Call of Duty: Black Ops - Cold War</td>
+                <td>C++</td>
+                <td>@mdo</td>
+              </tr>
+            </tbody>
+          </table> <!-- Einde van een tabel -->
+
+        </div> <!-- Dit is het einde van de container -->
+
+          <!-- Begin van de card deck -->
+ 
+    <div class="container"> <!-- Begin van een container -->
+        <div class="row"> <!-- Begin van een Row -->
+  
+          
+              <div class= "col-12 col-sm-6 col-md-3" class="mt-5"id="Vakantie boeken Canada">
+                  <div class="card">
+                    <img src="./Img/Card/Callofduty1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+              </div>
+  
+              <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Costa Rica">
+                  <div class="card">
+                    <img src="./Img/Card/Callofduty2.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty 2</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Nieuw Zeeland">
+                  <div class="card">
+                    <img src="./Img/Card/Callofduty3.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty 3</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Tanzania">
+                  <div class="card">
+                  <img src="./Img/Card/Callofduty4modernwarfare.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty 4: Modern Warfare</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                  </div>
+                 </div>
+                </div>
+  
+        </div> <!-- Einde van een Row -->
+  
+      </div> <!-- Einde van een container -->
+  
+      <div class="container"> <!-- Begin van een container -->
+        <div class="row"> <!-- Begin van een Row -->
+  
+          <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Maleisië">
+            <div class="card">
+            <img src="./Img/Card/Callofdutyworldatwar.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Call of Duty: World at War</h6>
+                <p class="card-text"></p>
+                <form method="get" action="./geschiedenis.html">
+                  <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+              </form>
+            </div>
+           </div>
+          </div>
+  
+          <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Zuid Afrika">
+            <div class="card">
+            <img src="./Img/Card/Callofdutymodenrwarfare2.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Call of Duty: Modern Warfare 2</h6>
+                <p class="card-text"></p>
+                <form method="get" action="./geschiedenis.html">
+                  <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+              </form>
+            </div>
+           </div>
+          </div>
+  
+              <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Suriname">
+                  <div class="card">
+                    <img src="./Img/Card/Callofdutyblackops.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty: Black Ops</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Sri Lanka">
+                  <div class="card">
+                    <img src="./Img/Card/Callofdutymodernwarfare3.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty: Modern Warfare 3</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+  
+   
+        </div> <!-- Einde van een Row -->
+  
+      </div> <!-- Einde van een container -->
+
+      <div class="container"> <!-- Begin van een container -->
+        <div class="row"> <!-- Begin van een Row -->
+  
+          <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Maleisië">
+            <div class="card">
+            <img src="./Img/Card/Callofdutyblackops2.jfif" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Call of Duty: Black Ops II</h6>
+                <p class="card-text"></p>
+                <form method="get" action="./geschiedenis.html">
+                  <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+              </form>
+            </div>
+           </div>
+          </div>
+  
+          <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Zuid Afrika">
+            <div class="card">
+            <img src="./Img/Card/Callofdutyghosts.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Call of Duty: Ghosts</h6>
+                <p class="card-text"></p>
+                <form method="get" action="./geschiedenis.html">
+                  <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+              </form>
+            </div>
+           </div>
+          </div>
+  
+              <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Suriname">
+                  <div class="card">
+                    <img src="./Img/Card/Callofdutyadvancedwarfare.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty: Advanced Warfare</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Sri Lanka">
+                  <div class="card">
+                    <img src="./Img/Card/Callofdutyblackops3.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">	Call of Duty: Black Ops III</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+  
+   
+        </div> <!-- Einde van een Row -->
+  
+      </div> <!-- Einde van een container -->
+
+      <div class="container"> <!-- Begin van een container -->
+        <div class="row"> <!-- Begin van een Row -->
+  
+          <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Maleisië">
+            <div class="card">
+            <img src="./Img/Card/Callofdutyinfinitewarfare.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">	Call of Duty: Infinite Warfare</h6>
+                <p class="card-text"></p>
+                <form method="get" action="./geschiedenis.html">
+                  <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+              </form>
+            </div>
+           </div>
+          </div>
+  
+          <div class= "col-12 col-sm-6 col-md-3" class="mt-" id="Vakantie boeken Zuid Afrika">
+            <div class="card">
+            <img src="./Img/Card/Callofdutymodernwarfareremastered.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Call of Duty: Modern Warfare Remastered</h6>
+                <p class="card-text"></p>
+                <form method="get" action="./geschiedenis.html">
+                  <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+              </form>
+            </div>
+           </div>
+          </div>
+  
+              <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Suriname">
+                  <div class="card">
+                    <img src="./Img/Card/CallofdutyWWII.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty: WWII</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Sri Lanka">
+                  <div class="card">
+                    <img src="./Img/Card/Callofdutyblackops4.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">Call of Duty: Black Ops 4</h6>
+                      <p class="card-text"></p>
+                      <form method="get" action="./geschiedenis.html">
+                        <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+  
+   
+        </div> <!-- Einde van een Row -->
+  
+      </div> <!-- Einde van een container -->
+
+      <div class="container"> <!-- Begin van een container -->
+        <div class="row"> <!-- Begin van een Row -->
+  
+          <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Maleisië">
+            <div class="card">
+            <img src="./Img/Card/Callofdutymodernwarfare2019.jfif" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">	Call of Duty: Modern Warfare</h6>
+                <p class="card-text"></p>
+                <form method="get" action="./geschiedenis.html">
+                  <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+              </form>
+            </div>
+           </div>
+          </div>
+  
+          <div class= "col-12 col-sm-6 col-md-3" class="mt-5" id="Vakantie boeken Zuid Afrika">
+            <div class="card">
+            <img src="./Img/Card/Callofdutyblackopscoldwar.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Call of Duty: Black Ops - Cold War</h6>
+                <p class="card-text"></p>
+                <form method="get" action="./geschiedenis.html">
+                  <button class="btn btn-primary" type="submit">Klik hier voor meer informatie</button>
+              </form>
+            </div>
+           </div>
+          </div>
+
+
+        </div> <!-- Einde van een Row -->
+  
+      </div> <!-- Einde van een container -->
+  
+  <!-- Einde van de card deck -->
+
+  <!--Begin van de footer-->
+  
+  <footer class="py-4 mt-auto">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-muted">Copyright &copy; GameWiki 2021</div>
+            <div>
+                <a href="#">Privacy Policy</a>
+                &middot;
+                <a href="#">Terms &amp; Conditions</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Einde van de footer-->
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
